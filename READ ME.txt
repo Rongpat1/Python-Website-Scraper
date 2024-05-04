@@ -1,0 +1,48 @@
+*****************************************************READ ME******************************************************
+
+Web Scraper: How to Guide
+Overview
+
+This Python script scrapes data from a website, extracting information from various pages and writing it to a text file.
+
+Requirements
+Python 3.x
+Requests library
+BeautifulSoup library
+
+Installation
+
+1. Python Installation:
+If you don't have Python installed, download and install it from python.org.
+Make sure to check the option to add Python to your system's PATH during installation.
+
+2. Library Installation:
+Open a command prompt or terminal.
+Run the following commands to install the required libraries:
+
+Copy code
+pip install requests
+pip install beautifulsoup4
+
+Usage
+Download the Script:
+Download the Python script from this repository.
+Edit the Script:
+Open the script in a text editor.
+Replace 'YOUR_MAIN_PAGE_URL_HERE' with the URL of the main page you want to start scraping.
+
+3. Run the Script:
+Open a command prompt or terminal.
+Navigate to the directory where the script is saved.
+Run the script using the following command:
+
+Copy code
+python script_name.py
+
+4. Output:
+The script will scrape data from the specified website and write it to a text file named output.txt.
+The text file will be saved in the same directory as the script.
+
+Troubleshooting
+If you encounter any issues while running the script, ensure that you have installed Python and the required libraries correctly.
+Make sure you have a stable internet connection while running the script to access the website.
